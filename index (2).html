@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Form</title>
+    <style>
+        
+    .main-top{
+        color: rgb(28, 30, 33);
+    height: 563px;
+    width: 947px;
+    margin: 0px 200px;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    
+    min-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: auto;
+    background-color: rgb(242, 244, 247);
+    }
+    .top{
+        color: rgb(28, 30, 33);
+        display: flex;
+        justify-content: center;
+        
+        
+    height: 496px;
+    width: 867px;
+    margin: 0px 20px;
+    padding: 20px 0px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+        .facebook1{
+    box-sizing: border-box;
+            width: 400px;
+            height: 259px;
+            display: inline-block;
+            direction: ltr;
+        
+    padding-right: 32px;
+    
+       color: rgb(28, 30, 33);
+        }
+        .facebook-img{
+            display: block;
+            direction: ltr;
+        height: 55px;
+        width: 368px;
+        padding-top: 112px;
+        padding-right: 0px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        }
+        .facebook-logo{
+            display: block;
+            direction: ltr;
+            width: 321px;
+            height: 106px;
+            margin: -28px;
+        }
+        .h2{
+        color: rgb(28, 30, 33);
+        display: inline-block;
+        direction: ltr;
+            width: 368px;
+            height: 57px;
+            margin-top: 10px;
+            
+            letter-spacing: normal;
+            line-height: 28px;
+            font-size: 28px;
+            font-weight: 400;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        }
+        .facebook2{
+            height: 456px;
+            width: 396px;
+            display: block;
+            direction: ltr;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        
+        color: rgb(28, 30, 33);
+        }
+        .form1{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            display: block;
+            direction: ltr;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 40px;
+            padding-bottom: 24px;
+            padding-left: 0px;
+            padding-right: 0px;
+            height: 350px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+        }
+        .form{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 316px;
+            width: 396px;
+            display: block;
+            direction: ltr;
+            text-align: center;
+            margin: 0px;
+            padding-top: 10px;
+        }
+        .email{
+            height: 52px;
+            width: 364px;
+            margin-bottom: 5px;
+            padding: 6px 0px;
+        font-size: 17px;
+        }
+        .form input[type=email]{
+            height: 22px;
+            width: 320px;
+            padding: 14px 16px;
+            margin-left: 20px;
+            border-radius: 6px;
+            border-width: 1px;
+            border-color: rgb(221, 223, 226);
+            border-style: solid;
+            font-weight: 400;
+            font-size: 17px;
+        }
+        .form input[type=email]:hover{
+            border-color: rgb(8, 102, 255);
+        }
+        .form input[type=email]:hover{
+        
+        }
+        .passoword{
+            height: 48px;
+            width: 396px;
+            padding: 6px 0px;
+        font-size: 17px;
+        }
+        .password input[type=password]{
+            height: 22px;
+            width: 320px;
+            padding: 14px 16px;
+            
+            border-radius: 6px;
+            border-width: 1px;
+            border-color: rgb(221, 223, 226);
+            border-style: solid;
+            font-weight: 400;
+            font-size: 17px;
+        }
+        .form input[type=password]:hover{
+            border-color: rgb(8, 102, 255);
+        }
+        .button{
+            height: 52px;
+            width: 364px;
+            padding: 6px 0px;
+        font-size: 17px;
+        }
+        #submit{
+            text-align: center;
+            height: 48px;
+            width: 355px;
+            margin-top: 10px;
+            margin-left: 20px;
+            padding: 0px 16px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 20px;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            background-color: rgb(8, 102, 255);
+         }
+          input:focus{
+            outline-style: none;
+            box-shadow: none;
+        }
+         #submit:hover{
+            opacity: 0.9;
+         }
+.forgot-password{
+margin-top: 16px;
+text-align: center;
+}
+.forgot-password a{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(8, 102, 255);
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+.cross-line{
+    align-items: center;
+    border-bottom-color: rgb(218, 221, 225);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin: 20px 16px;
+}
+.create{
+    display: flex;
+    align-items: center;
+     color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-shadow: none;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    text-decoration-color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 700;
+    height: 48px;
+    width: 170px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 100px;
+    padding: 0px 16px;
+    background-color: rgb(66, 183, 42);
+}
+.create a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.create:hover{
+    background-color: rgb(75, 163, 58);
+}
+.newpage{
+    margin: 20px 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.newpage a{
+    text-decoration: none;
+    color: rgb(28, 30, 33);
+    font-weight: 600;
+}
+.newpage a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 990px) {
+    .top{
+        display: inline-block;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="main-top">
+    <div class="top">
+    <div class="facebook1">
+        <div class="facebook-img">
+        <img class="facebook-logo" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+        </div>
+        <h2 class="h2">Facebook helps you connect and share with the people in your life.
+        </h2>
+    </div>
+    <div class="facebook2">
+        <div class="form1">
+            <form class="form">
+                <div class="email">
+                <input type="email" placeholder="Email address or phone number">
+              </div>
+                <div class="password">
+                <input type="password" placeholder="Password">
+</div>
+
+<div class="button">
+    <button id="submit" type="submit" name="Login">Log in</button>
+</div>
+<div class="forgot-password">
+    <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIzNDEzMDY2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next">Forgotten password?</a>
+</div>
+<div class="cross-line"></div>
+<div class="create"><a href="https://www.facebook.com/login.php" target="_blank">Create new account</a></div>
+            </form>
+            </div>
+            <div class="newpage"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form" target="_blank"><strong>Create a Page</strong></a> for a celebrity, brand or business.</div>
+        </div>
+        </div>
+</body>
+</html>
